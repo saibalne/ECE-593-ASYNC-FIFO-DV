@@ -1,0 +1,111 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /top/vif
+=== Design Unit: work.async_if
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      18        18         0   100.00%
+    Toggles                         78        44        34    56.41%
+
+=================================================================================
+=== Instance: /top/dut/ctrl_inst/sync_r2w
+=== Design Unit: work.sync_ptr
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       6         6         0   100.00%
+    Toggles                         48        43         5    89.58%
+
+=================================================================================
+=== Instance: /top/dut/ctrl_inst/sync_w2r
+=== Design Unit: work.sync_ptr
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       6         6         0   100.00%
+    Toggles                         48        43         5    89.58%
+
+=================================================================================
+=== Instance: /top/dut/ctrl_inst/sender_ctrl_inst
+=== Design Unit: work.sender_control
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      5         2         3    40.00%
+    Statements                      22        22         0   100.00%
+    Toggles                        236       171        65    72.45%
+
+=================================================================================
+=== Instance: /top/dut/ctrl_inst/receiver_ctrl_inst
+=== Design Unit: work.receiver_control
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      4         3         1    75.00%
+    Statements                      21        21         0   100.00%
+    Toggles                        222       175        47    78.82%
+
+=================================================================================
+=== Instance: /top/dut/ctrl_inst
+=== Design Unit: work.control_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       1         1         0   100.00%
+    Toggles                        162       128        34    79.01%
+
+=================================================================================
+=== Instance: /top/dut/mem_inst
+=== Design Unit: work.fifo_mem
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                         74        74         0   100.00%
+
+=================================================================================
+=== Instance: /top/dut
+=== Design Unit: work.async_fifo
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      2         1         1    50.00%
+    Toggles                        154       120        34    77.92%
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        14         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /async_pkg
+=== Design Unit: work.async_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       8         7         1    87.50%
+
+=================================================================================
+=== Instance: /top_sv_unit
+=== Design Unit: work.top_sv_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        21        15         6    71.42%
+    Conditions                       7         2         5    28.57%
+    Statements                     193       185         8    95.85%
+
+
+Total Coverage By Instance (filtered view): 68.49%
+
